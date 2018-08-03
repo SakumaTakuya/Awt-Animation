@@ -4,7 +4,7 @@ Awt用(主にSwing)のアニメーションツールです。今更いったい�
 
 # 使い方
 ## 基本
-`Sample.java` を見れば分かります。
+[`Sample.java`](https://github.com/SakumaTakuya/Awt-Animation/blob/master/Sample.java)を見れば分かります。
 
 ## 新しいアニメーションを作る
 以下のように、`Animation` クラスを継承してください。その際、コンストラクタでは `super(length)` とする必要があります。
