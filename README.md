@@ -10,7 +10,7 @@ Awt用(主にSwing)のアニメーションツールです。今更いったい�
 以下のように、`Animation` クラスを継承してください。その際、コンストラクタでは `super(length)` とする必要があります。
 アニメーションの記述は `animate` で行います。第二引数の `rate` はアニメーションの完了度を表して言います。0がスタート、1が完了です。
 
-```
+```java
 public class MoveAnimation extends Animation{
     private int fromX;
     private int fromY;
